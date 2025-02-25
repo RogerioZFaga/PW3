@@ -1,3 +1,4 @@
+//Rogério e Miguel
 import { Component } from '@angular/core';
 
 @Component({
