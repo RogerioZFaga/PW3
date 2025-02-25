@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './frases.component.html',
   styleUrls: ['./frases.component.css']
 })
+
 export class FrasesComponent {
   frases: string[] = [
     "Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado.",
