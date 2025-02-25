@@ -33,9 +33,9 @@ export class FrasesComponent {
     do {
       const index = Math.floor(Math.random() * this.frases.length);
       novaFrase = this.frases[index];
-    } while (novaFrase === ultimaFrase); // Garante que a frase seja diferente da última exibida
+    } while (novaFrase === ultimaFrase);
 
-    localStorage.setItem('fraseAtual', novaFrase); // Salva a nova frase no localStorage
+    localStorage.setItem('fraseAtual', novaFrase);
     return novaFrase;
   }
 }
