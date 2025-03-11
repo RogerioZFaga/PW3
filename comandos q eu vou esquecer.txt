@@ -1,0 +1,2 @@
+ng g c nomecomponente -- cria componente
+ng new nomeaprojeto -- cria projeto
